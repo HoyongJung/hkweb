@@ -13,47 +13,57 @@
 
     gtag('config', 'UA-122837180-1');
     </script>
+    
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div id="main">
-        <h1>Hoyong & Kyujin</h1>
-        <img src="img/HK1.jpg" width="30%">
-        <h4>Welcome to get to know about us!</h4>
-    </div>
-    <div id="sidenav">
-        <ul>
-            <li><a href="index.html" title="Home">Home</a></li>
-            <li>About Us</li>
+    <h1>Hoyong & Kyujin</h1>
+    <div id="content">
+        <div id="sidenav">
             <ul>
-                <li><a href="hoyongjung.html" title="Hoyong Jung">Hoyong Jung</a></li>
-                <li><a href="kyujincho.html" title="Kyjin Cho">Kyujin Cho</a></li>
-                <li><a href="dreamjung.html" title="Dream Jung">Dream Jung</a></li>
+                <li><a href="index.html" title="Home" style="text-decoration:underline">Home</a></li>
+                <li>About Us</li>
+                <ul>
+                    <li><a href="hoyongjung.html" title="Hoyong Jung">Hoyong Jung</a></li>
+                    <li><a href="kyujincho.html" title="Kyjin Cho">Kyujin Cho</a></li>
+                    <li><a href="dreamjung.html" title="Dream Jung">Dream Jung</a></li>
+                </ul>
+                <li><a href="marriagestory.html" title="Marriage Story">Marriage Story</a></li>
+                <li><a href="bucketlist.html" title="Bucket list">Bucket List</a></li>
             </ul>
-            <li><a href="marriagestory.html" title="Marriage Story">Marriage Story</a></li>
-            <li><a href="bucketlist.html" title="Bucket list">Bucket List</a></li>
-        </ul>
+        </div>
+        <div id="galary">
+            <img src="img/HK3.jpg" width="54%">
+            <img src="img/HK5.jpg" width="30%">
+            <img src="img/HK2.jpg" width="30%">
+            <img src="img/HK4.jpg" width="30%">
+            <img src="img/HK7.jpg" width="30%">
+            <img src="img/HK6.jpg" width="30%">
+            <img src="img/HK1.jpg" width="30%">
+            <img src="img/HK8.jpg" width="30%">
+            <h4>Welcome to get to know about us!</h4>
+            
+            <div id="disqus_thread"></div>
+            <script>
+            
+            /**
+            *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+            *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+            /*
+            var disqus_config = function () {
+            this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+            this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+            };
+            */
+            (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            s.src = 'https://our-story-1.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+            })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        </div>
     </div>
-    <p>
-        <div id="disqus_thread"></div>
-        <script>
-        
-        /**
-        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-        /*
-        var disqus_config = function () {
-        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-        };
-        */
-        (function() { // DON'T EDIT BELOW THIS LINE
-        var d = document, s = d.createElement('script');
-        s.src = 'https://our-story-1.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-        })();
-        </script>
-        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>                  
-    </p>
 </body>
 </html>
